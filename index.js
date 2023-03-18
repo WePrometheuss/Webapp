@@ -12,4 +12,6 @@ app.set('views', path.join(__dirname, 'views'));
 
 app.get('/', (req, res) => res.render('index.ejs'));
 
+app.get('/login', (req, res) => res.render('login.ejs'));
+
 app.listen(port, () => console.log(`app listening on port ${port}!`));
