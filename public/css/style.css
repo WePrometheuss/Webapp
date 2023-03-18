@@ -72,6 +72,7 @@ nav ul li a:hover{
 
     height: 90%;
     width: 80%;
+    scale: 0.9;
 }
 .container h1{
     font-size: 75px;
