@@ -1,81 +1,98 @@
 body{
-    margin:0;
-    padding:0;
-    background-color: #111015;
-    display: flex;
-    flex-direction: row;
-    font-family: 'montserrat', sans-serif;
-    
-}
-.sidebar{
-    width: 20vw;
-    height: 100vh;
     background-color: #18171c;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
 }
-.container{
-    width: 80vw;
+.first{
+    background-color: #ff5c55;
+}
+.icon{
+    height: 100%;
+    width: auto;
+    display: inline-block;
+}
+header{
     height: 100vh;
-    background-color: #111015;
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
-.container .top{
+nav{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    height: 10vh;
+    padding: 0 0;
+    height: auto;
     background-color: #18171c;
 }
-.logo{
-    width: 100px;
-    height: auto;
-    background-color: #111015;
+nav ul{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-}
-.sidebar ul{
     list-style: none;
     padding: 0;
     margin: 0;
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
 }
-.icon{
-    height: 50px;
-    width: 50px;
+.nav{
+    width: 30%;
+}
+nav ul li{
     display: inline-block;
-    background-color: #111015;
-    float: left;
-    
+    margin: 0 0;
+    height: 8vh;
+    line-height: 8vh;
 }
-.sidebar ul li{
-    width: 100%;
-    background-color: #18171c;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
-
-}
-.sidebar ul li .text{
-    height: 100%;
-    line-height: 50px;
-    display: inline-block;
-    width: 5vw;
-    
-}
-.sidebar ul li a{
-    text-decoration: none;
+nav ul li a{
     color: #fff;
-    font-size: 20px;
+    text-decoration: none;
+    font-size: 24px;
     font-weight: 400;
-
+}
+nav ul li a:hover{
+    color: #ff5c55;   
+}
+.login{
+    margin: 40px 40px;
+}
+section{
+    height: 92vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+section .left{
+    height: 100%;
+    width: 16%;
+    float: left;
+    background-color: #18171c;
+}
+section .left ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+section .left ul li{
+    height: 8vh;
+    line-height: 8vh;
+    text-align: center;
+}
+section .left ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 400;
+}
+section .left ul li a:hover{
+    color: #ff5c55;
+}
+section .right{
+    height: 100%;
+    width: 84%;
+    float: left;
+    background-color: #111015;
+    border-radius: 100px 0px 0px 0;
 }
